@@ -1,0 +1,52 @@
+* {
+	color: black;
+}
+nav a {
+	color: green;
+}
+h2[class$="__button"] > a {
+	color: lightcoral;
+}
+a[target="_blank"] {
+	color: yellowgreen;
+}
+a[href^="http"] span {
+	color: brown;
+}
+.menu__sub-list li {
+	color: blue;
+}
+.menu__sub-list a {
+	color: orange;
+}
+[class^="page__"] .text > p {
+	color: grey;
+}
+.movie__article.jolie p,
+.movie__article.schreiber p {
+	color: olive;
+}
+.parker__text.text > p {
+	color: blue;
+}
+#stiller + [class*="__article"] > div.text p {
+	color: blueviolet;
+}
+#vinnik * {
+	color: orangered;
+}
+div[class^="media__"] ~ div[class*="article"] > div.text p {
+	color: teal;
+}
+.title {
+	color: indianred;
+}
+main .sub-title {
+	color: purple;
+}
+h3[class*="label"] {
+	color: peru;
+}
+.movie ~ [class*="page__"] .label {
+	color: violet;
+}
