@@ -6,7 +6,7 @@ body {
 	line-height: 1.2;
 }
 [class*="__info"] p {
-	font-family: "Lato";
+	font-family: "Lato", sans-serif;
 	font-weight: 500;
 }
 .main-title {
@@ -38,7 +38,7 @@ body {
 	text-indent: 20px;
 }
 .menu__sub-link {
-	font-family: "Amorthe";
+	font-family: "Amorthe", serif;
 	color: orange;
 	text-indent: 0px;
 	/* font-weight: 700; */
@@ -105,13 +105,13 @@ body {
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 .list__item--fantasy {
-	font-family: "Papyrus";
+	font-family: "Papyrus", fantasy;
 }
 .list__item--cursive {
-	font-family: "Lucida Handwriting";
+	font-family: "Lucida Handwriting", cursive;
 }
 .list__item--monospace {
-	font-family: "Courier New";
+	font-family: "Courier New", monospace;
 }
 .list__item--italic {
 	font-style: italic;
@@ -153,7 +153,7 @@ body {
 	font-weight: 950;
 }
 .text-align__list .list__item {
-	font-family: "Amorthe";
+	font-family: "Amorthe", serif;
 	font-weight: 900;
 }
 .list__item--center {
@@ -166,7 +166,7 @@ body {
 	text-align: justify;
 }
 .list__item--justify span {
-	font-family: "Amorthe";
+	font-family: "Amorthe", serif;
 	font-weight: 700;
 }
 .list__item--text-decoration-color span {
@@ -246,7 +246,7 @@ body {
 	text-transform: uppercase;
 }
 .agrolink {
-	font-family: "DM Sans";
+	font-family: "DM Sans", sans-serif;
 }
 .agrolink__title {
 	color: #131313;
@@ -265,7 +265,7 @@ body {
 	letter-spacing: -0.5px;
 }
 .footer__button {
-	font-family: "Lato";
+	font-family: "Lato", sans-serif;
 	font-size: 32px;
 	color: red;
 	font-weight: 900;
