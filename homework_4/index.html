@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=DM%20Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Homework 4</title>
+</head>
+<body>
+	<header id="top" class="header">
+		<h1 class="header__main-title main-title">Властивості шрифтів та тексту</h1>
+		<nav class="header__menu menu">
+			<h2 class="menu__title">Навігація</h2>
+			<ul class="menu__list">
+				<li class="menu__item">
+					<a href="#font-properties" class="menu__link">Властивості шрифтів</a>
+					<ul class="menu__sub-list">
+						<li class="menu__sub-item">
+							<a href="#font-family" class="menu__sub-link">font-family</a>
+						</li>
+						<li class="menu__sub-item">
+							<a href="#font-size" class="menu__sub-link">font-size</a>
+						</li>
+						<li class="menu__sub-item">
+							<a href="#font-style" class="menu__sub-link">font-style</a>
+						</li>
+						<li class="menu__sub-item">
+							<a href="#font-weight" class="menu__sub-link">font-weight</a>
+						</li>
+					</ul>
+				</li>
+				<li class="menu__item">
+					<a href="#text-properties" class="menu__link">Властивості тексту</a>
+					<ul class="menu__sub-list">
+						<li class="menu__sub-item">
+							<a href="#color" class="menu__sub-link">color</a>
+						</li>
+						<li class="menu__sub-item">
+							<a href="#text-align" class="menu__sub-link">text-align</a>
+						</li>
+						<li class="menu__sub-item">
+							<a href="#text-decoration" class="menu__sub-link">text-decoration</a>
+						</li>
+						<li class="menu__sub-item">
+							<a href="#text-shadow" class="menu__sub-link">text-shadow</a>
+						</li>
+						<li class="menu__sub-item">
+							<a href="#text-transform" class="menu__sub-link">text-transform</a>
+						</li>
+						<li class="menu__sub-item">
+							<a href="#line-height" class="menu__sub-link">line-height</a>
+						</li>
+						<li class="menu__sub-item">
+							<a href="#letter-spacing" class="menu__sub-link">letter-spacing</a>
+						</li>
+						<li class="menu__sub-item">
+							<a href="#word-spacing" class="menu__sub-link">word-spacing</a>
+						</li>
+						<li class="menu__sub-item">
+							<a href="#white-space" class="menu__sub-link">white-space</a>
+						</li>
+						<li class="menu__sub-item">
+							<a href="#text-indent" class="menu__sub-link">text-indent</a>
+						</li>
+						<li class="menu__sub-item">
+							<a href="#text-wrap" class="menu__sub-link">text-wrap</a>
+						</li>
+					</ul>
+				</li>
+				<li class="menu__item">
+					<a href="#agrolink" class="menu__link">Agrolink</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main class="page">
+		<div id="font-properties" class="page__section font-properties">
+			<h2 class="font-properties__title title">Властивості шрифтів</h2>
+			<div id="font-family" class="font-properties__article font-family">
+				<h3 class="font-family__sub-title sub-title"><span>font-family</span>: “main-font”, “fallback-font”, type; - <span>родина шрифтів</span></h3>
+				<div class="font-family__preview">body {<span>font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;</span>}</div>
+				<div class="font-family__info">
+					<h4 class="font-family__label label">Типи шрифтів:</h4>
+					<ul class="font-family__list list">
+						<li class="list__item list__item--serif">serif - шрифт із зарубками (із засічками) - Times New Roman…</li>
+						<li class="list__item list__item--sans-serif">sans-serif - рублений (без засічок) - Arial, Roboto…</li>
+						<li class="list__item list__item--fantasy">fantasy - декоративні - Classica Prestige, Papyrus, Historycal…</li>
+						<li class="list__item list__item--cursive">cursive - курсивні шрифти - Lucida Handwriting...</li>
+						<li class="list__item list__item--monospace">monospace - моноширинні - Courier New...</li>
+					</ul>
+				</div>
+			</div>
+			<div id="font-size" class="font-properties__article font-size">
+				<h3 class="font-size__sub-title sub-title"><span>font-size - розмір шрифту</span></h3>
+				<div class="font-size__preview">body {<span>font-size: 30px;</span>}</div>
+				<div class="font-size__info">
+					<p>За замовченням 16px, якщо в браузері не вказано іншого</p>
+				</div>
+			</div>
+			<div id="font-style" class="font-properties__article font-style">
+				<h3 class="font-style__sub-title sub-title"><span>font-style - стиль шрифту</span></h3>
+				<div class="font-style__preview">.title {<span>font-style: italic;</span>}</div>
+				<div class="font-style__info">
+					<h4 class="font-style__label label">Стилі шрифтів:</h4>
+					<ul class="font-style__list list">
+						<li class="list__item">normal (за замовченням) - звичайний (не змінений) стиль</li>
+						<li class="list__item list__item--italic">italic - курсив</li>
+						<li class="list__item list__item--oblique">oblique - нахилені літери</li>
+					</ul>
+				</div>
+			</div>
+			<div id="font-weight" class="font-properties__article font-weight">
+				<h3 class="font-weight__sub-title sub-title"><span>font-weight - насиченість (товщину) шрифту</span> (за замовченням 400 - regular)</h3>
+				<div class="font-weight__info">
+					<h4 class="font-weight__label label">Числове значення - словесне значення:</h4>
+					<ul class="font-weight__list list">
+						<li class="list__item list__item--100">100 - Thin (Hairline)</li>
+						<li class="list__item list__item--200">200 - Extra Light (Ultra Light)</li>
+						<li class="list__item list__item--300">300 - Light</li>
+						<li class="list__item list__item--350">350 - Semi Light</li>
+						<li class="list__item list__item--375">375 - Text</li>
+						<li class="list__item">400 - Regular (Normal / Book)</li>
+						<li class="list__item list__item--500">500 - Medium</li>
+						<li class="list__item list__item--600">600 - Semi Bold (Demi Bold)</li>
+						<li class="list__item list__item--700">700 - Bold</li>
+						<li class="list__item list__item--800">800 - Extra Bold (Ultra Bold)</li>
+						<li class="list__item list__item--900">900 - Black (Heavy)</li>
+						<li class="list__item list__item--950">950 - Extra Black (Ultra Black)</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="text-properties" class="page__section text-properties">
+			<h2 class="text-properties__title title">Властивості тексту</h2>
+			<div id="color" class="text-properties__article color">
+				<h3 class="color__sub-title sub-title"><span>color - колір тексту </span>(значенням може бути слово, код #, rgba - для прозорості, інші кодування…)</h3>
+				<div class="color__preview">body {<span>color: black;</span><span>color: #000;</span><span class="color__opacity">color: rgba(255, 255, 255, 0.5); - прозорість 50%</span>} </div>
+			</div>
+			<div id="text-align" class="text-properties__article text-align">
+				<h3 class="text-align__sub-title sub-title"><span>text-align- вирівнювання тексту</span></h3>
+				<div class="text-align__preview">body {<span>text-align: left; - за замовченням</span><span>text-align: center;</span><span>text-align: right;</span><span>text-align: justify;</span>}</div>
+				<div class="text-align__info">
+					<h4 class="text-align__label label">Значення text-align:</h4>
+					<ul class="text-align__list list">
+						<li class="list__item">left</li>
+						<li class="list__item list__item--center">center</li>
+						<li class="list__item list__item--right">right</li>
+						<li class="list__item list__item--justify">justify - по ширині об’єкта (пробіли автоматичні, різні за розміром) <br> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ipsum quo accusamus vel veniam aut molestias neque vero unde obcaecati assumenda eum placeat vitae maiores, praesentium id fugiat veritatis laborum. Nemo repellat ut iure, sit quaerat sapiente libero non obcaecati quas natus doloribus dolorem numquam eligendi ea quibusdam fuga, vero, velit sunt commodi quisquam? Unde officiis animi repellendus explicabo consequatur.</span></li>
+					</ul>
+				</div>
+			</div>
+			<div id="text-decoration" class="text-properties__article text-decoration">
+				<h3 class="text-decoration__sub-title sub-title"><span>text-decoration - додає тексту певне оформлення</span></h3>
+				<div class="text-decoration__info">
+					<h4 class="text-decoration__label label">Значення text-decoration:</h4>
+					<ul class="text-decoration__list list">
+						<li class="list__item">text-decoration - загальний запис для властивостей</li>
+						<li class="list__item ">text-decoration-line - встановлює тип декору <ul class="list__sub-list">
+								<li class="list__sub-item list__sub-item--underline">
+									<span>underline</span> - лінія під текстом
+								</li>
+								<li class="list__sub-item list__sub-item--overline">
+									<span>overline</span> - лінія над текстом
+								</li>
+								<li class="list__sub-item list__sub-item--line-through">
+									<span>line-through</span> - закреслює текст
+								</li>
+								<li class="list__sub-item">
+									<span>none</span> - (за замовченням) скасовує встановлений раніше параметр
+								</li>
+							</ul>
+						</li>
+						<li class="list__item list__item--text-decoration-color"><span>text-decoration-color</span> - змінює колір декору</li>
+						<li class="list__item">text-decoration-style - змінює стиль декору <ul class="list__sub-list">
+								<li class="list__sub-item list__sub-item--solid">
+									<span>solid</span> - суцільна лінія (за замовченням)
+								</li>
+								<li class="list__sub-item list__sub-item--double">
+									<span>double</span> - подвійна суцільна лінія
+								</li>
+								<li class="list__sub-item list__sub-item--dotted">
+									<span>dotted</span> - крапки
+								</li>
+								<li class="list__sub-item list__sub-item--dashed">
+									<span>dashed</span> пунктир
+								</li>
+								<li class="list__sub-item list__sub-item--wavy">
+									<span>wavy</span> хвиляста лінія
+								</li>
+							</ul>
+						</li>
+						<li class="list__item list__item--text-decoration-thickness"><span>text-decoration-thickness</span> - встановлює товщину лінії</li>
+						<li class="list__item list__item--text-underline-offset">
+							<span>text-underline-offset</span> - встановлює відстань від тексту до лінії
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="text-shadow" class="text-properties__article text-shadow">
+				<h3 class="text-shadow__sub-title sub-title"><span>text-shadow</span>: гор_зміщення верт_зміщення розмиття колір; - <span>додає тінь тексту</span>, може бути мульти-тінь (значення через кому)</h3>
+				<div class="text-shadow__preview">.text {<span>text-shadow: 1px 1px 10px blue, -5px -5px 10px red;</span>} </div>
+			</div>
+			<div id="text-transform" class="text-properties__article text-transform">
+				<h3 class="text-transform__sub-title sub-title"><span>text-transform - регістр літер</span></h3>
+				<div class="text-transform__preview">.text {<span>text-transform: uppercase;</span>} </div>
+				<div class="text-transform__info">
+					<h4 class="text-transform__label label">Значення text-transform:</h4>
+					<ul class="text-transform__list list">
+						<li class="list__item list__item--capitalize">capitalize - кожне слово починається з заглавної літери</li>
+						<li class="list__item list__item--lowercase">lowercase - усі літери прописні (нижній регістр) </li>
+						<li class="list__item list__item--uppercase">uppercase - усі літери заглавні (верхній регістр)</li>
+						<li class="list__item">none (за замовченням) - відміняє ефект</li>
+					</ul>
+				</div>
+			</div>
+			<div id="line-height" class="text-properties__article line-height">
+				<h3 class="line-height__sub-title sub-title"><span>line-height - міжрядеовий інтервал</span></h3>
+				<div class="line-height__preview">.text {<span>line-height: 1.25;</span>} </div>
+				<div class="line-height__info">
+					<p>Розрахунок - line-height / font-size (Плагін CSS Responsive Helper, автор Pavlo Krovitskyi)</p>
+					<p>Записувати слід в частинах (1.25), якщо писати у відсотках (125%), то рахуватиметься від font- size того елемента, для якого вказаний відсотковий line-height, тобто не буде наслідуватись для об’єктів, де line-height інший </p>
+				</div>
+			</div>
+			<div id="letter-spacing" class="text-properties__article letter-spacing">
+				<h3 class="letter-spacing__sub-title sub-title"><span>letter-spacing - інтервал між літерами</span></h3>
+				<div class="letter-spacing__preview">.title {<span>letter-spacing: 10px;</span>} </div>
+			</div>
+			<div id="word-spacing" class="text-properties__article word-spacing">
+				<h3 class="word-spacing__sub-title sub-title"><span>word-spacing - інтервал між словами </span>(розмір пробілів)</h3>
+				<div class="word-spacing__preview">.title {<span>word-spacing: 3px;</span>} </div>
+			</div>
+			<div id="white-space" class="text-properties__article white-space">
+				<h3 class="white-space__sub-title sub-title"><span>white-space - керування поведінкою пробілів</span></h3>
+				<div class="white-space__preview">.title {<span>white-space: nowrap;</span>} <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione praesentium nostrum animi, totam doloribus voluptas sunt nobis, vero quam consequatur vel maxime. Veritatis consectetur, dolorem quasi consequuntur et nulla delectus?</span></div>
+			</div>
+			<div id="text-indent" class="text-properties__article text-indent">
+				<h3 class="text-indent__sub-title sub-title"><span>text-indent - відступ першого рядка, абзац </span>(червоний рядок)</h3>
+				<div class="text-indent__preview">.title {<span>text-indent: 100px;</span>} </div>
+			</div>
+			<div id="text-wrap" class="text-properties__article text-wrap">
+				<h3 class="text-wrap__sub-title sub-title"><span>text-wrap - рівномірно розташовує перенесений текст</span>, добре працює в заголовках</h3>
+				<div class="text-wrap__preview">.text {<span>text-wrap: balance; </span>} </div>
+			</div>
+		</div>
+		<div id="agrolink" class="page__section agrolink">
+			<div class="agrolink__title">Grown <span>by Nature</span></div>
+			<div class="agrolink__text">
+				<p>We grow our crops naturally. We are a fast-growing agricultural technology company passionate about ensuring food security. We leverage our technology to improve productivity & sales to promote food security for you and your family.</p>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<h2 class="footer__button"><a href="#top">Go to TOP</a></h2>
+	</footer>
+</body>
+</html>

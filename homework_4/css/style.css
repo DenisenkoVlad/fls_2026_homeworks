@@ -1,0 +1,276 @@
+@import url("fonts.css");
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	line-height: 1.2;
+}
+[class*="__info"] p {
+	font-family: "Lato";
+	font-weight: 500;
+}
+.main-title {
+	color: darkgoldenrod;
+	text-align: center;
+	font-weight: 700;
+	font-size: 48px;
+	letter-spacing: 1.5px;
+	word-spacing: 10px;
+	line-height: 2;
+}
+.menu__title {
+	color: red;
+	font-weight: 600;
+	font-size: 36px;
+	letter-spacing: 1.2px;
+	word-spacing: 5px;
+	line-height: 1.5;
+}
+.menu__link {
+	color: green;
+	font-weight: 500;
+	font-size: 28px;
+	letter-spacing: 1.5px;
+	word-spacing: 10px;
+}
+.menu__sub-item {
+	color: blue;
+	text-indent: 20px;
+}
+.menu__sub-link {
+	font-family: "Amorthe";
+	color: orange;
+	text-indent: 0px;
+	/* font-weight: 700; */
+	font-size: 22px;
+	letter-spacing: 0.5px;
+	word-spacing: 5px;
+}
+.title {
+	color: purple;
+	font-weight: 500;
+	font-size: 32px;
+	letter-spacing: 0.5px;
+	word-spacing: 5px;
+	line-height: 1.5;
+}
+.sub-title {
+	font-size: 28px;
+	letter-spacing: 0.5px;
+	word-spacing: 2px;
+	line-height: 1.1;
+}
+.sub-title span {
+	color: goldenrod;
+	font-weight: 600;
+}
+[class*="__preview"] span {
+	color: grey;
+	display: block;
+	text-indent: 20px;
+}
+.label {
+	color: darkslateblue;
+	font-weight: 500;
+	line-height: 1.5;
+	font-weight: 500;
+	font-size: 20px;
+	word-spacing: 2px;
+}
+.font-size__preview span {
+	font-size: 30px;
+}
+.font-family__preview span {
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+.font-style__preview span {
+	font-style: italic;
+}
+.color__preview span {
+	color: #000;
+}
+.color__preview span.color__opacity {
+	color: rgba(0, 0, 0, 0.5);
+}
+.line-height__info {
+	color: #333;
+}
+.list__item {
+	text-indent: 15px;
+}
+.list__item--serif {
+	font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.list__item--sans-serif {
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+.list__item--fantasy {
+	font-family: "Papyrus";
+}
+.list__item--cursive {
+	font-family: "Lucida Handwriting";
+}
+.list__item--monospace {
+	font-family: "Courier New";
+}
+.list__item--italic {
+	font-style: italic;
+}
+.list__item--oblique {
+	font-style: oblique;
+}
+.list__item--100 {
+	font-weight: 100;
+}
+.list__item--200 {
+	font-weight: 200;
+}
+.list__item--300 {
+	font-weight: 300;
+}
+.list__item--350 {
+	font-weight: 350;
+}
+.list__item--375 {
+	font-weight: 375;
+}
+.list__item--500 {
+	font-weight: 500;
+}
+.list__item--600 {
+	font-weight: 600;
+}
+.list__item--700 {
+	font-weight: 700;
+}
+.list__item--800 {
+	font-weight: 800;
+}
+.list__item--900 {
+	font-weight: 900;
+}
+.list__item--950 {
+	font-weight: 950;
+}
+.text-align__list .list__item {
+	font-family: "Amorthe";
+	font-weight: 900;
+}
+.list__item--center {
+	text-align: center;
+}
+.list__item--right {
+	text-align: right;
+}
+.list__item--justify {
+	text-align: justify;
+}
+.list__item--justify span {
+	font-family: "Amorthe";
+	font-weight: 700;
+}
+.list__item--text-decoration-color span {
+	text-decoration-line: underline;
+	text-decoration-color: orange;
+}
+.list__item--text-decoration-thickness span {
+	text-decoration-line: underline;
+	text-decoration-thickness: 4px;
+}
+.list__item--text-underline-offset span {
+	text-decoration-line: underline;
+	text-underline-offset: 6px;
+}
+.text-align__list li {
+	text-indent: 0;
+}
+.list__sub-item {
+	text-indent: 30px;
+	line-height: 1.5;
+}
+.list__sub-item--underline span {
+	text-decoration-line: underline;
+}
+.list__sub-item--overline span {
+	text-decoration-line: overline;
+}
+.list__sub-item--line-through span {
+	text-decoration-line: line-through;
+}
+.list__sub-item--solid span {
+	text-decoration-line: underline;
+}
+.list__sub-item--double span {
+	text-decoration-line: underline;
+	text-decoration-style: double;
+}
+.list__sub-item--dotted span {
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
+}
+.list__sub-item--dashed span {
+	text-decoration-line: underline;
+	text-decoration-style: dashed;
+}
+.list__sub-item--wavy span {
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+}
+.text-shadow__preview span {
+	text-shadow:
+		1px 1px 10px blue,
+		-5px -5px 10px red;
+}
+.list__item--capitalize {
+	text-transform: capitalize;
+}
+.list__item--lowercase {
+	text-transform: lowercase;
+}
+.list__item--uppercase {
+	text-transform: uppercase;
+}
+.letter-spacing__preview span {
+	letter-spacing: 10px;
+}
+.word-spacing__preview span {
+	word-spacing: 30px;
+}
+.white-space__preview span {
+	white-space: nowrap;
+}
+.text-indent__preview span {
+	text-indent: 100px;
+}
+[href="#agrolink"] {
+	text-transform: uppercase;
+}
+.agrolink {
+	font-family: "DM Sans";
+}
+.agrolink__title {
+	color: #131313;
+	font-size: 50px;
+	line-height: 1.3; /* 65/50 */
+	letter-spacing: -1.26px;
+}
+.agrolink__title span {
+	font-weight: 700;
+	color: #1aaf5b;
+}
+.agrolink__text {
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 20px;
+	line-height: 1.4; /* 28/20 */
+	letter-spacing: -0.5px;
+}
+.footer__button {
+	font-family: "Lato";
+	font-size: 32px;
+	color: red;
+	font-weight: 900;
+}
+.footer__button a {
+	text-decoration: underline;
+	font-style: 1.875; /* 45/24 */
+}
