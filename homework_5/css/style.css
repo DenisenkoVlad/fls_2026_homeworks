@@ -72,7 +72,7 @@ body {
 .center {
 	background-color: #c4c4c4;
 }
-.center [class*="__item"] {
+.center__block div {
 	max-width: 250px;
 	background-color: yellowgreen;
 	padding: 5px;
@@ -91,6 +91,7 @@ body {
 	display: inline-block;
 	vertical-align: top;
 	background-color: violet;
+	margin-right: 10px;
 }
 .overflow__item div {
 	max-height: 220px;
@@ -111,7 +112,7 @@ body {
 	color: #333;
 	font-weight: 500;
 	font-size: 18px;
-	line-height: 1.333;
+	line-height: 1.333; /* 24/18 */
 	background-color: #fff3e3;
 	max-width: 643px;
 	padding: 62px 39px 37px;
@@ -128,7 +129,7 @@ body {
 .homework__big-title {
 	font-weight: 700;
 	font-size: 52px;
-	line-height: 1.25;
+	line-height: 1.25; /* 65/52 */
 	color: #b88e2f;
 	text-transform: capitalize;
 	text-wrap: balance;
@@ -136,10 +137,6 @@ body {
 }
 .homework__text {
 	margin-bottom: 46px;
-}
-.text {
-}
-.homework__footer {
 }
 .homework__button {
 	background-color: #b88e2f;
