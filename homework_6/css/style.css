@@ -501,11 +501,11 @@ body {
 }
 .breadcrumbs__home {
 	font-weight: 500;
-	margin-right: 6px;
+	margin-right: 8px;
 }
 .breadcrumbs__checkout {
 	background: url("../img/furniro/arrow.svg") 0 1px / 8px 14px no-repeat;
-	padding-left: 20px;
+	padding-left: 18px;
 	font-weight: 300;
 }
 .homework__catalyst1 {
