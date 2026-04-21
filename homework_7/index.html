@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=DM%20Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Homework 7</title>
+</head>
+<body>
+	<header id="top" class="header">
+		<div class="header__container">
+			<h1 class="header__main-title main-title">Псевдокласи / Псевдоелементи</h1>
+		</div>
+	</header>
+	<main class="page">
+		<div id="child" class="page__child child">
+			<div class="child__container">
+				<h2 class="child__title title">Child</h2>
+				<div class="child__button">
+					<a href="#child" class="child__link">Button</a>
+				</div>
+				<div class="child__item item-child child__item--first">
+					<div class="item-child__label">First / last</div>
+					<div class="item-child__block">
+						<ul class="item-child__list">
+							<li class="item-child__line">First child</li>
+							<li class="item-child__line">Child</li>
+							<li class="item-child__line">Child</li>
+							<li class="item-child__line">Child</li>
+							<li class="item-child__line">Last child</li>
+						</ul>
+					</div>
+				</div>
+				<div class="child__item item-child child__item--second">
+					<div class="item-child__label">Nth-child</div>
+					<div class="item-child__block">
+						<ul class="item-child__list">
+							<li class="item-child__line">Odd</li>
+							<li class="item-child__line">Even</li>
+							<li class="item-child__line">3n</li>
+							<li class="item-child__line">Even</li>
+							<li class="item-child__line">Odd</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="page__tabs tabs">
+			<div class="tabs__container">
+				<h2 class="tabs__title title">Tabs</h2>
+				<div class="tabs__body">
+					<div id="tab1" class="tabs__item">
+						<img src="img/logo.webp" alt="Image">
+						<p>1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quibusdam quae qui ipsum eius maiores beatae harum laboriosam quia maxime nostrum tempore consequuntur unde, expedita, sunt ullam vero iure voluptates, amet impedit! Quo veritatis officia suscipit assumenda facilis vel, quis saepe dolore, numquam, ullam nihil? Molestias laborum asperiores placeat commodi!</p>
+					</div>
+					<div id="tab2" class="tabs__item">
+						<img src="img/logo.webp" alt="Image">
+						<p>2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quibusdam quae qui ipsum eius maiores beatae harum laboriosam quia maxime nostrum tempore consequuntur unde, expedita, sunt ullam vero iure voluptates, amet impedit! Quo veritatis officia suscipit assumenda facilis vel, quis saepe dolore, numquam, ullam nihil? Molestias laborum asperiores placeat commodi!</p>
+					</div>
+					<div id="tab3" class="tabs__item">
+						<img src="img/logo.webp" alt="Image">
+						<p>3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quibusdam quae qui ipsum eius maiores beatae harum laboriosam quia maxime nostrum tempore consequuntur unde, expedita, sunt ullam vero iure voluptates, amet impedit! Quo veritatis officia suscipit assumenda facilis vel, quis saepe dolore, numquam, ullam nihil? Molestias laborum asperiores placeat commodi!</p>
+					</div>
+				</div>
+				<ul class="tabs__menu">
+					<li><a href="#tab1">Tab 1</a></li>
+					<li><a href="#tab2">Tab 2</a></li>
+					<li><a href="#tab3">Tab 3</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="page__volume volume">
+			<div class="volume__container">
+				<h2 class="volume__title title">Volume</h2>
+				<div class="volume__box">
+					<div class="volume__item"><span></span></div>
+					<div class="volume__item"><span></span></div>
+					<div class="volume__item"><span></span></div>
+					<div class="volume__item"><span></span></div>
+					<div class="volume__item"><span></span></div>
+					<div class="volume__item"><span></span></div>
+					<div class="volume__item"><span></span></div>
+					<div class="volume__item"><span></span></div>
+					<div class="volume__item"><span></span></div>
+					<div class="volume__item"><span></span></div>
+				</div>
+			</div>
+		</div>
+		<div class="page__game game">
+			<div class="game__container">
+				<h2 class="game__title title">Game - елементи не зникають (вкладеність в HTML)</h2>
+				<div class="game__body">
+					<div class="game__start">Start</div>
+					<div class="game__line1">
+						<div class="game__point1">
+							<div class="game__line2">
+								<div class="game__point2">
+									<div class="game__line3">
+										<div class="game__point3">
+											<div class="game__finish">Finish</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="page__game2 game2">
+			<div class="game2__container">
+				<h2 class="game2__title title">Game 2 - елементи зникають (в HTML на одному рівні)</h2>
+				<div class="game2__body">
+					<div class="game2__item">Start</div>
+					<div class="game2__item"></div>
+					<div class="game2__item"></div>
+					<div class="game2__item"></div>
+					<div class="game2__item"></div>
+					<div class="game2__item"></div>
+					<div class="game2__item">Finish</div>
+				</div>
+			</div>
+		</div>
+		<div id="homework" class="page__homework homework">
+			<h2 class="homework__heading">Grown <span>by Nature</span></h2>
+			<div class="homework__text">
+				<p>We grow our crops naturally. We are a fast-growing agricultural technology company passionate about ensuring food security. We leverage our technology to improve productivity & sales to promote food security for you and your family.</p>
+			</div>
+			<a href="#homework" class="homework__button"><span>Learn more</span></a>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="footer__container">
+			<a href="#top" class="footer__button">Go to TOP</a>
+		</div>
+	</footer>
+</body>
+</html>
