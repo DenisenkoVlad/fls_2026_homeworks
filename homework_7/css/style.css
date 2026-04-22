@@ -401,7 +401,7 @@ body {
 }
 .homework__heading {
 	font-size: 50px;
-	letter-spacing: -1.26px;
+	letter-spacing: -1px;
 	line-height: 1.3; /* 65/50 */
 }
 .homework__heading span {
@@ -420,7 +420,6 @@ body {
 .homework__text {
 	font-size: 20px;
 	line-height: 1.4; /* 28/20 */
-	letter-spacing: -0.5px;
 	opacity: 0.6;
 	margin-bottom: 58px;
 }
@@ -429,7 +428,6 @@ body {
 	font-weight: 700;
 	font-size: 17px;
 	line-height: 1.3; /* 22/17 */
-	letter-spacing: -0.43px;
 	border-radius: 0px 18px 0px 0px;
 	background-color: #1aaf5b;
 	padding: 24px;
