@@ -7,9 +7,6 @@ body {
 	padding-inline: 15px;
 	margin: 0 auto;
 }
-.content__item figurecaption {
-	display: block;
-}
 .header {
 	padding-block: 15px;
 }
@@ -21,6 +18,9 @@ body {
 }
 .logo__item {
 	text-align: center;
+}
+.logo__item figcaption {
+	display: inline-block;
 }
 .logo__item img {
 	max-width: 100px;
@@ -73,9 +73,6 @@ body {
 .dpr__item {
 	text-align: center;
 	text-wrap: balance;
-}
-.dpr__item figurecaption {
-	display: block;
 }
 .dpr__item img {
 	margin-bottom: 5px;
