@@ -16,6 +16,9 @@ body {
 	text-transform: uppercase;
 	text-align: center;
 }
+.homework__logo {
+	margin-bottom: 30px;
+}
 .logo__item {
 	text-align: center;
 }
