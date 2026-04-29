@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Homework 9</title>
+</head>
+<body>
+	<header class="header">
+		<div class="header__container">
+			<!-- title-block - блок, який буде перевикористовуватись -->
+			<div class="header__title-block title-block">
+				<!-- title-block__image - обгортка для майбутнього адаптиву зображення -->
+				<div class="title-block__image">
+					<img src="#" alt="Image">
+				</div>
+				<div class="title-block__label">Blog SECTION</div>
+				<h1 class="title-block__title">Read my latest articles</h1>
+			</div>
+		</div>
+	</header>
+	<main class="page">
+		<div class="page__container">
+			<div class="page__articles articles">
+				<!-- articles__content - обгортка для конструкції з двох елементів-колонок (articles__preview та articles__items) -->
+				<div class="articles__content">
+					<!-- preview - блок, який буде перевикористовуватись -->
+					<div class="articles__preview preview">
+						<!-- preview__image - обгортка для майбутнього адаптиву зображення -->
+						<div class="preview__image">
+							<a href="#" class="preview__link-image">
+								<img src="#" alt="Image">
+							</a>
+						</div>
+						<!-- preview__info - обгортка для конструкції з двох елементів (preview__category та preview__date) -->
+						<div class="preview__info">
+							<div class="preview__category">Development</div>
+							<div class="preview__date">March 20, 2024</div>
+						</div>
+						<h2 class="preview__title">
+							<a href="#" class="preview__link-title">Approach to eco-friendly product development</a>
+						</h2>
+						<!-- preview__text - обгортка для текстового блоку, в якому може бути декілька параграфів -->
+						<div class="preview__text text">
+							<p>Leverage agile by the way frameworks to provide a for high level in the most important overviews.</p>
+						</div>
+						<a href="" class="preview__link"></a>
+					</div>
+					<div class="articles__items">
+						<ul class="articles__list">
+							<li class="articles__item">
+								<!-- Перевикористання блоку preview, тільки без деяких елементів та з модифікатором для title -->
+								<!-- Обгорнув в тег a, вся картка - це посилання -->
+								<a href="#" class="articles__link preview">
+									<div class="preview__category">Design</div>
+									<h2 class="preview__title preview__title--small">How Raven's designs are changing the game</h2>
+									<!-- preview__text - обгортка для текстового блоку, в якому може бути декілька параграфів -->
+									<div class="preview__text text">
+										<p>Leverage agile by the way frameworks to provide a for high level in the most important overviews.</p>
+									</div>
+								</a>
+							</li>
+							<li class="articles__item">
+								<!-- Перевикористання блоку preview, тільки без деяких елементів та з модифікатором для title -->
+								<!-- Обгорнув в тег a, вся картка - це посилання -->
+								<a href="#" class="articles__link preview">
+									<div class="preview__category">Marketing</div>
+									<h2 class="preview__title preview__title--small">Prototyping secrets revealed of creation</h2>
+									<!-- preview__text - обгортка для текстового блоку, в якому може бути декілька параграфів -->
+									<div class="preview__text text">
+										<p>Leverage agile by the way frameworks to provide a for high level in the most important overviews.</p>
+									</div>
+								</a>
+							</li>
+							<li class="articles__item">
+								<!-- Перевикористання блоку preview, тільки без деяких елементів та з модифікатором для title -->
+								<!-- Обгорнув в тег a, вся картка - це посилання -->
+								<a href="#" class="articles__link preview">
+									<div class="preview__category">Design</div>
+									<h2 class="preview__title preview__title--small">Raven's perspective on the future of product design</h2>
+									<!-- preview__text - обгортка для текстового блоку, в якому може бути декілька параграфів -->
+									<div class="preview__text text">
+										<p>Leverage agile by the way frameworks to provide a for high level in the most important overviews.</p>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="page__questions questions">
+				<!-- Перевикористання блоку title-block -->
+				<div class="questions__title title-block">
+					<!-- title-block__image - обгортка для майбутнього адаптиву зображення -->
+					<div class="title-block__image">
+						<img src="#" alt="Image">
+					</div>
+					<div class="title-block__label">F.A.Q. SECTION</div>
+					<h1 class="title-block__title">Frequently asked questions</h1>
+				</div>
+				<div class="questions__faq faq">
+					<ul class="faq__list">
+						<!-- faq__item - обгортка для конструкції з двох елементів (faq__ask та faq__button) -->
+						<li class="faq__item">
+							<div class="faq__ask">How does Raven approach the design process?</div>
+							<a href="#" class="faq__button"></a>
+							<!-- faq__answer - контент в розкритому спойлері, скоріше за все зі стилями текстових блоків .text -->
+							<div class="faq__answer text">
+								<p>Some answer</p>
+							</div>
+						</li>
+						<!-- faq__item - обгортка для конструкції з двох елементів (faq__ask та faq__button) -->
+						<li class="faq__item">
+							<div class="faq__ask">What types of products does Raven specialize in designing?</div>
+							<a href="#" class="faq__button"></a>
+							<!-- faq__answer - контент в розкритому спойлері, скоріше за все зі стилями текстових блоків .text -->
+							<div class="faq__answer text">
+								<p>Some answer</p>
+							</div>
+						</li>
+						<!-- faq__item - обгортка для конструкції з двох елементів (faq__ask та faq__button) -->
+						<li class="faq__item">
+							<div class="faq__ask">Can Raven help with prototyping and testing product ideas?</div>
+							<a href="#" class="faq__button"></a>
+							<!-- faq__answer - контент в розкритому спойлері, скоріше за все зі стилями текстових блоків .text -->
+							<div class="faq__answer text">
+								<p>Some answer</p>
+							</div>
+						</li>
+						<!-- faq__item - обгортка для конструкції з двох елементів (faq__ask та faq__button) -->
+						<li class="faq__item">
+							<div class="faq__ask">How does Raven ensure designs are ready for manufacturing?</div>
+							<a href="#" class="faq__button"></a>
+							<!-- faq__answer - контент в розкритому спойлері, скоріше за все зі стилями текстових блоків .text -->
+							<div class="faq__answer text">
+								<p>Some answer</p>
+							</div>
+						</li>
+						<!-- faq__item - обгортка для конструкції з двох елементів (faq__ask та faq__button) -->
+						<li class="faq__item">
+							<div class="faq__ask">Is Raven's design process sustainable?</div>
+							<a href="#" class="faq__button"></a>
+							<!-- faq__answer - контент в розкритому спойлері, скоріше за все зі стилями текстових блоків .text -->
+							<div class="faq__answer text">
+								<p>Some answer</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="footer__container">
+			<!-- some content -->
+		</div>
+	</footer>
+</body>
+</html>
